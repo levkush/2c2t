@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2C2T</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <div class="bg-white">
+        <header class="absolute inset-x-0 top-0 z-50">
+          <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+              <a href="./index.html" class="-m-1.5 p-1.5">
+                <span class="sr-only">2С2T</span>
+                <img class="h-10 w-auto rounded-lg" src="https://media.discordapp.net/attachments/1100405012296892537/1101857153448427611/Plugin_icon_-_1.png?width=256&height=256" alt="">
+              </a>
+            </div>
+            <div class="flex lg:hidden">
+              <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                <span class="sr-only">Open main menu</span>
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+              </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">
+              <a href="https://dsc.gg/2c2t" class="text-sm font-semibold leading-6 text-gray-900">Дискорд</a>
+              <a href="shops.html" class="text-sm font-semibold leading-6 text-gray-900">Магазины китов</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+              <a href="donations.html" class="text-sm font-semibold leading-6 text-gray-900">Поддержать <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </nav> 
+          <!-- Mobile menu, show/hide based on menu open state. -->
+            
+            </div>
+          </div>
+        </header>
+      
+        <div class="relative isolate px-6 pt-14 lg:px-8">
+          <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+            <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+          </div>
+          <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+            <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+              <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                Почти все наши новости пишуться на сервере дискорд. <a href="https://dsc.gg/2c2t" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Вступить <span aria-hidden="true">&rarr;</span></a>
+              </div>
+            </div>
+            <div class="text-center">
+              <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">2C2T - Покупка китов и других внутриигровых вещей</h1>
+              <p class="mt-6 text-lg leading-8 text-gray-600">! Если вы хотите выложить свои товары это стоит 3 дабла китов, за добавлением вам нужно написать администрации в дискорд сервере</p>
+              <div class="mt-10 flex items-center justify-center gap-x-6">
+                <a href="#shop" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Начать покупки</a>
+                <a href="./index.html" class="text-sm font-semibold leading-6 text-gray-900">Узнать больше <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+            <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+          </div>
+        </div>
+      </div>
+
+      <section id="shop">
+        <!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <h2 class="mb-2 text-2xl font-bold">Магазин игрока undefined1111</h2>
+      <h2 class="mb-5 text-xl">Внимание! Данный игрок принимает только украинские гривны и криптовалюту</h2>
+        
+      <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <a href="shoplayer/undefined1111.html" class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="https://media.discordapp.net/attachments/1102238196747739277/1104449555153563718/2023-05-06_18.48.00.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">PVP-топка</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">15 грн</p>
+        </a>
+        <a href="shoplayer/undefined1111.html" class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="https://media.discordapp.net/attachments/1102238196747739277/1104449670102663178/2023-05-06_18.48.29.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">ТОТЕМЫ</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">15 грн</p>
+        </a>
+        <a href="shoplayer/undefined1111.html" class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="https://media.discordapp.net/attachments/1102238196747739277/1104449786737856623/2023-05-06_18.48.59.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">Элитры</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">15 грн</p>
+        </a>
+        <a href="shoplayer/undefined1111.html" class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="https://media.discordapp.net/attachments/1102238196747739277/1104450029294473327/2023-05-06_18.49.49.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">Зажигалочки</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">15 грн</p>
+        </a>
+  
+        <!-- More products... -->
+            </div>
+        </div>
+    </div>  
+    <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-5 sm:px-6 sm:py-10 lg:max-w-7xl lg:px-8">
+          <h2 class="mb-2 text-2xl font-bold">Магазин игрока Rewarny</h2>
+          <h2 class="mb-5 text-xl">Внимание! Данный игрок принимает только рубли оплата по киви</h2>
+            
+          <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            <a href="shoplayer/rewarny.html" class="group">
+              <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                <img src="https://media.discordapp.net/attachments/1104457484309115012/1104459308072177664/2023-05-01_15.47.40.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+              </div>
+              <h3 class="mt-4 text-sm text-gray-700">PVP-топка</h3>
+              <p class="mt-1 text-lg font-medium text-gray-900">20 руб</p>
+            </a>
+            <a href="shoplayer/rewarny.html" class="group">
+              <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                <img src="https://media.discordapp.net/attachments/1104457484309115012/1104459307430449192/2023-05-01_15.47.53.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+              </div>
+              <h3 class="mt-4 text-sm text-gray-700">ТОТЕМЫ</h3>
+              <p class="mt-1 text-lg font-medium text-gray-900">20 руб</p>
+            </a>
+            <a href="shoplayer/rewarny.html" class="group">
+              <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                <img src="https://media.discordapp.net/attachments/1104457484309115012/1104459307745038387/2023-05-01_15.47.47.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+              </div>
+              <h3 class="mt-4 text-sm text-gray-700">Броня</h3>
+              <p class="mt-1 text-lg font-medium text-gray-900">20 руб</p>
+            </a>
+            <a href="shoplayer/rewarny.html" class="group">
+              <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                <img src="https://media.discordapp.net/attachments/1104457484309115012/1104459305719181492/2023-05-01_15.48.28.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+              </div>
+              <h3 class="mt-4 text-sm text-gray-700">Опыт</h3>
+              <p class="mt-1 text-lg font-medium text-gray-900">20 руб</p>
+            </a>
+            <a href="shoplayer/rewarny.html" class="group">
+                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                  <img src="https://media.discordapp.net/attachments/1104457484309115012/1104459305987608667/2023-05-01_15.48.24.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                </div>
+                <h3 class="mt-4 text-sm text-gray-700">Ценности</h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">20 руб</p>
+              </a>
+              <a href="shoplayer/rewarny.html" class="group">
+                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                  <img src="https://media.discordapp.net/attachments/1104457484309115012/1104459306348326922/2023-05-01_15.48.19.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                </div>
+                <h3 class="mt-4 text-sm text-gray-700">Чтоб не втыкали 1</h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">20 руб</p>
+              </a>
+              <a href="shoplayer/rewarny.html" class="group">
+                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                  <img src="https://media.discordapp.net/attachments/1104457484309115012/1104459307145244672/2023-05-01_15.47.58.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                </div>
+                <h3 class="mt-4 text-sm text-gray-700">Чтоб не втыкали 2</h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">20 руб</p>
+              </a>
+              <a href="shoplayer/rewarny.html" class="group">
+                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                  <img src="https://media.discordapp.net/attachments/1104457484309115012/1104459306834874448/2023-05-01_15.48.03.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                </div>
+                <h3 class="mt-4 text-sm text-gray-700">Чтоб не втыкали 3</h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">20 руб</p>
+              </a>
+              <a href="shoplayer/rewarny.html" class="group">
+                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                  <img src="https://media.discordapp.net/attachments/1104457484309115012/1104459306604171386/2023-05-01_15.48.08.png" class="h-full w-full object-cover object-center group-hover:opacity-75">
+                </div>
+                <h3 class="mt-4 text-sm text-gray-700">Чтоб не втыкали 4</h3>
+                <p class="mt-1 text-lg font-medium text-gray-900">20 руб</p>
+              </a>
+      
+            <!-- More products... -->
+                </div>
+            </div>
+        </div>  
+      </section>
+      <script src="https://cdn.tailwindcss.com"></script>
+    </div>
+</body>
+</html>
