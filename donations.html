@@ -18,6 +18,11 @@
         }
       }
     }
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text);
+    
+      alert("Адрес скопирован в буфер обмена!     " + text);
+    }
   </script>
 </head>
 <body>
@@ -61,11 +66,10 @@
             </div>
             <div class="text-center">
               <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">2C2T - Майнкрафт анархический проект для вашей души</h1>
-              <p class="mt-6 text-lg leading-8 text-gray-600">Как нас поддержать? <br>
-                BTC: bc1ql3eayxnaw3wwg8ej6hzg2ce2ldssftct032apl <br>
-                ETH: 0x94Cf49435A974F3996F323E08948980e2219138D <br>
-                XMR: 48V9zPgoZE9NK5eXhp8kMbEjJnzQU8EHuAsHDL6HoMF8h8iBrNsBVvRVQdF57CVwykGjjvfjSe8pB4mhV9f72zvzQJ9uFZ8
-              </p>
+              <p class="mt-6 text-lg leading-8 text-gray-600">Как нас поддержать? </p>
+                <button onclick="copyToClipboard('bc1ql3eayxnaw3wwg8ej6hzg2ce2ldssftct032apl')" class="rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Bitcoin</button>
+                <button onclick="copyToClipboard('0x94Cf49435A974F3996F323E08948980e2219138D')" class="rounded-md bg-neutral-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-neutral-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Etherium</button>
+                <button onclick="copyToClipboard('48V9zPgoZE9NK5eXhp8kMbEjJnzQU8EHuAsHDL6HoMF8h8iBrNsBVvRVQdF57CVwykGjjvfjSe8pB4mhV9f72zvzQJ9uFZ8')" class="rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Monero</button>
               <div class="mt-10 flex items-center justify-center gap-x-6">
                 <a href="startplay.html" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Начать играть</a>
                 <a href="https://dsc.gg/2c2t" class="text-sm font-semibold leading-6 text-gray-900">Узнать больше <span aria-hidden="true">→</span></a>
@@ -78,6 +82,5 @@
         </div>
       </div>
       <script src="https://cdn.tailwindcss.com"></script>
-    
 </body>
 </html>
